@@ -3,7 +3,7 @@ from shutil import *
 
 shorten = lavla("redirect","redirect","Redirect")
 
-class URLy:
+class urly:
   def __init__(url="",id=""):
     shorten.local("/temp/index",[url])
     shutil.copy2('/temp/index.html', ''.join(['/',id]))
