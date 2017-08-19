@@ -37,7 +37,7 @@ class lavla:
     for n = pre:
       n = n.format(nm=_webname)
     
-    f = open(path,"a")
+    f = open(name,"a")
     if f == None:
       print("Please add source.")
       
