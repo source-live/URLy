@@ -43,7 +43,7 @@ class lavla:
       
     f.write(f.format(*pre))
     
-    def new(name,path,pre):
+  def new(name,path,pre):
     name = "".join([name,ext])
     
     for n = pre:
